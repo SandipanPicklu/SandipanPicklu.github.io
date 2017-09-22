@@ -1,0 +1,110 @@
+a:focus{outline:0 solid}
+a:hover{text-decoration: none;}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+body{
+	font-family: 'Open Sans', Sans-serif;background: #FFFFFF;font-weight: 300
+}
+.section-padding{
+  padding: 80px 0
+}
+.newsletter-bg{background-image: url(../img/ahsan-manzil-full-view.jpg);}
+.newsletter-bg h2{text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.newsletter-bg{color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+padding-bottom: 180px;
+}
+.newsletter-bg:after{
+  position: absolute;
+  left:0;
+  top: 0;
+  width:100%;
+  height:100%;
+  content: "";
+  background: #123;
+  z-index:-1;
+  opacity: .3;
+}
+.newslettter-form input[type="email"] {
+  background: #123;
+border: 1px solid #695855;
+opacity: .6;
+width:76%;
+padding:12px 20px;
+border-radius: 50px;
+}
+.newslettter-form input[type="submit"] {
+  background: #2AB89D;
+  color:#DCF3EF;
+  border:none;
+  padding: 13px 30px;
+  border-radius: 50px;
+  width:23%;
+}
+.newslettter-form form{
+  margin-bottom: 10px;
+}
+p.newsletter-text{
+font-style: italic;
+}
+.bordered-boxes{
+ overflow: hidden;
+ border-right: 1px solid #EEEEEE;
+ margin-top: -160px;
+position: relative;
+z-index: 9;
+background: #fff;
+}
+.single-bordered-box{
+  float: left;
+  width: 50%;
+  border-left: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-top: 1px solid #EEEEEE;
+  padding: 50px 80px;
+  text-align: center;
+  min-height: 263px;
+}
+.bordered-boxes h2{
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+p.author-name{
+  text-transform: uppercase;
+font-weight: 700;
+color: #393939;
+font-style: normal;
+margin-top: 20px;
+}
+.single-testimonial-box{
+  font-style: italic;
+  line-height: 1.4;
+}
+a.boxed-btn{
+  background: #333333;
+  color: #fff;
+  padding: 7px 25px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 10px;
+}
