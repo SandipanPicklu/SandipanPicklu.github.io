@@ -1,0 +1,95 @@
+a:focus{outline:0 solid}
+a:hover{text-decoration: none;}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+body{
+	font-family: 'Open Sans', Sans-serif;background: #FFFFFF;
+}
+
+.section-title h2 {
+  text-transform: uppercase;
+  color: #03C1FE;
+  font-size: 34px;
+  margin-top: 50px;
+}
+.section-title-sep {
+  height: 2px;
+  background: #A0E2F9;
+  width: 300px;
+  margin: 0 auto;
+  posiiton: relative;
+  position: relative;
+}
+.section-title-sep:after {
+  position: absolute;
+  left: 50%;
+  bottom: -1.5px;
+   height: 5px;
+   width: 70px;
+  background: #60D6F9;
+  content: "";
+  margin-left: -35px;
+  z-index: 1; 
+}
+.section-title {
+  margin-bottom: 50px;
+}
+
+.single-team-box {
+ background: #fff;
+  padding: 30px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.0;
+}
+.single-team-box img {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+}
+
+.team-desc span {
+  color: #03C1FE;
+}
+.single-team-box h4 {
+  margin-top: 20px;
+  color: #36D3FF;
+  margin-bottom: 0
+}
+.single-team-box h4 span {
+  display: block;
+  color: #828282;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.team-carousel .owl-nav div{position:absolute;
+height: 35px;
+width:35px;
+color: #fff;
+background:#01BFF8;
+text-align: center;
+font-size: 20px;
+line-height: 32px;
+border-radius: 50%;
+left:-70px;
+top:50%; 
+margin-top: -17.5px
+}
+.team-carousel .owl-nav div.owl-next{
+  left: auto;
+right: -72px;
+
+}
