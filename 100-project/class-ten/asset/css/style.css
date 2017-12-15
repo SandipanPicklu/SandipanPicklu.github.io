@@ -1,0 +1,126 @@
+a:focus{outline:0 solid}
+a:hover{text-decoration: none;}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+body{
+	font-family: 'Open Sans', Sans-serif;background: #FFFFFF;font-weight: 300
+}
+.section-padding{
+  padding: 80px 0
+}
+.slide-bg-1{background-image: url(../img/man-5.jpg); }
+.slide-bg-2{background-image: url(../img/walle.jpg); }
+.slide-bg-3{background-image: url(../img/ahsan-manzil-full-view.jpg); }
+
+.box-btn, .welcome-area:after {background: #005b98; /* Old browsers */
+background: -moz-linear-gradient(left, #005b98 0%, #0094bd 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #005b98 0%,#0094bd 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #005b98 0%,#0094bd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005b98', endColorstr='#0094bd',GradientType=1 );
+}
+.welcome-area::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 61%;
+    content: "";
+    z-index: -1;
+}
+.welcome-area {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 100px;
+}
+.logo a, .mainmenu a{color: #fff}
+.logo{font-size: 25px;
+text-transform: uppercase;
+font-weight: 500;
+padding-top: 10px;
+}
+.mainmenu li{display: inline-block;
+position: relative;
+}
+.mainmenu ul{margin: 0;
+padding: 0;list-style: none;
+}
+.mainmenu li a{display: block;
+padding:18px 17px;
+text-transform: uppercase;
+font-size: 12px;
+}
+.header-right-content a{color: #000;}
+.social-links{display: inline-block;
+margin-right: 50px;
+border-left: 1px solid #E2E2E2;
+padding-left: 20px;
+margin-left: 20px;
+}
+.social-links a{
+  font-size: 14px;
+  padding: 0 4px;
+  display: inline-block;
+}
+.header-right-content{
+  padding-top: 16px;
+
+}
+.header-area{
+  padding: 30px 0;
+}
+.single-slide-item{
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-color: #000;
+  display: table;
+  width:100%;
+}
+.slide-inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+.slide-text{
+  max-width: 500px;
+  padding:130px;
+}
+.slide-text h4{
+  color: #74C1D7;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+.slide-text h2{
+  color: #2E2E2E;
+  font-size: 34px;
+font-weight: 400;
+margin-bottom: 50px;
+}
+.box-btn{
+  text-transform: uppercase;
+  font-size: 13px;
+padding: 15px 40px;
+display: inline-block;
+color: #fff;
+}
+.homepage-slides .owl-nav div{
+color: #fff;
+display: inline-block;
+margin-right: 20px;
+font-size: 20px;
+margin-top: 20px;
+opacity: .5;
+}
